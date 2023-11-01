@@ -10,6 +10,7 @@ import UseEffectThree from '../Date31/UseEffectThree.jsx';
 
 
 import { Routes, Route } from 'react-router-dom';
+import UseEffectFour from '../Date01/UseEffectFour.jsx';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
          <Route path='/useeffect' element={<UseEffect />} />
         <Route path='/useeffectthree' element={<UseEffectTwo />} />
         <Route path='/useeffecttwo' element={<UseEffectThree />} />
+        <Route path='/useeffectfour' element={<UseEffectFour />} />
        
 
         
