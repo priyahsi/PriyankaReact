@@ -16,6 +16,11 @@ import PropDrillingTwo from '../Date02/PropDrillingTwo.jsx';
 import Mapping from '../Date02/Mapping.jsx';
 import MappingTwo from '../Date02/MappingTwo.jsx';
 import { useState } from 'react';
+import ConditionalRendering from '../Date03/ConditionalRendering.jsx';
+import ConditionalRenderingThree from '../Date03/ConditionalRenderingThree.jsx';
+import ConditionalRenderingTwo from '../Date03/ConditionalRenderingTwo.jsx';
+import Registerone from '../Date06/Registerone.jsx';
+import RegisterThree from '../Date07/RegisterThree.jsx';
 
 function App() {
   const [students, setStudents] = useState(["A", "B", "C", "D"])
@@ -45,6 +50,15 @@ function App() {
         <Route path='/propdrillingtwo' element={<PropDrillingTwo counter={counter} IncrementCounter={IncrementCounter}/>} />
         <Route path='/mapping' element={<Mapping />} />
         <Route path='/mappingtwo' element={<MappingTwo />} />
+        
+        <Route path='/conditionalrendering' element={<ConditionalRendering />} />
+        
+        <Route path='/conditionalrenderingthree' element={<ConditionalRenderingThree />} />
+        <Route path='/conditionalrenderingtwo' element={<ConditionalRenderingTwo />} />
+        <Route path='/registerone' element={<Registerone />} />
+        <Route path='/registerthree' element={<RegisterThree />} />
+        
+        
        
        
        
